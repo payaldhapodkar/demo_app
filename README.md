@@ -7,7 +7,6 @@ Go to EC2 instance and open code editor:
 
 vim install.sh
 #!/bin/bash 
-# This installs the CodeDeploy agent and its prerequisites on Ubuntu 22.04.  
 sudo apt-get update 
 sudo apt-get install ruby-full ruby-webrick wget -y 
 cd /tmp 
